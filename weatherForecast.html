@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Weather Forecast</title>
+	</head>
+	<body>
+		<div id="header">
+			<p id="name"><strong>Weather Forecast</strong></p>
+		</div>
+		<div class="left">
+			<a href="index.html"><p>Resume</p></a>
+			<a href="currentWeather.html"><p>Current Weather</p></a>
+		</div>
+		<div class="right">
+			<table id="forecast">
+				<thead>
+					<th colspan="8">8 Day Forecast</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Today</td>
+						<td>Sunday</td>
+						<td>Monday</td>
+						<td>Tuesday</td>
+						<td>Wednesday</td>
+						<td>Thursday</td>
+						<td>Friday</td>
+						<td>Saturday</td>
+					</tr>
+					<tr>
+						<td class="picCell"><img src="partlyCloudy.png" class="forecastPic"/></td>
+						<td class="picCell"><img src="rainy.png" class="forecastPic"/></td>
+						<td class="picCell"><img src="rainy.png" class="forecastPic"/></td>
+						<td class="picCell"><img src="cloudy.png" class="forecastPic"/></td>
+						<td class="picCell"><img src="partlyCloudy.png" class="forecastPic"/></td>
+						<td class="picCell"><img src="sunny.png" class="forecastPic"/></td>
+						<td class="picCell"><img src="sunny.png" class="forecastPic"/></td>
+						<td class="picCell"><img src="sunny.png" class="forecastPic"/></td>
+					</tr>
+					<tr>
+						<td>High: 69</td>
+						<td>High: 64</td>
+						<td>High: 64</td>
+						<td>High: 66</td>
+						<td>High: 70</td>
+						<td>High: 76</td>
+						<td>High: 76</td>
+						<td>High: 78</td>
+					</tr>
+					<tr>
+						<td>Low: 60</td>
+						<td>Low: 59</td>
+						<td>Low: 58</td>
+						<td>Low: 60</td>
+						<td>Low: 64</td>
+						<td>Low: 63</td>
+						<td>Low: 66</td>
+						<td>Low: 68</td>
+					</tr>
+				</tbody>
+			</table>
+				<form>
+					Location:
+					<input type="text" name="location" value="Provo">
+					<input type="submit" value="Submit">
+				</form>
+		</div>
+	</body>
+</html>

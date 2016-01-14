@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Current Weather</title>
+	</head>
+	<body>
+		<div id="header">
+			<p id="name"><strong>Current Weather</strong></p>
+		</div>
+		<div class="left">
+			<a href="index.html"><p>Resume</p></a>
+			<a href="weatherForecast.html"><p>Weather Forecast</p></a>
+		</div>
+		<div class="right">
+			<div id="weatherPic">
+				<img src="partlyCloudy.png" id="bigImage"/>
+			</div>
+			<div id="temperature">
+				<p>68 degrees</p>
+			</div>
+			<div class="remainder">
+				<table id="table1">
+					<thead></thead>
+					<tbody>
+						<tr>
+							<td>Today's high:</td>
+							<td>Today's low:</td>
+							<td>Visibility:</td>
+							<td>Humidity:</td>
+							<td>Wind:</td>
+						</tr>
+						<tr>
+							<td>70 degrees</td>
+							<td>65 degrees</td>
+							<td>10 miles</td>
+							<td>55%</td>
+							<td>4 mph North</td>
+						</tr>
+					</tbody>
+				</table>
+				<form>
+					Location:
+					<input type="text" name="location" value="Provo">
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
